@@ -1,0 +1,94 @@
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 20px;
+}
+
+.backround-image{
+	background-image: url('images/team.jpg');
+	height: 1000px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.menu{
+	display: flex;
+	width: 500px;
+	list-style: none;
+	justify-content: space-between;
+}
+
+.menu-item{
+	color:#ffffff;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.menu-link{
+	color:#ffffff;
+	text-decoration: none;
+}
+.title{
+	color: #ffffff;
+	font-size: 40px;
+	text-transform: uppercase;
+	margin: 500px 0 0 30px;
+}
+.subtitle{
+	color: #060606;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin: 5px 0 0 30px;
+}
+
+.main-page{
+	background: #4fb1de;
+}
+
+.next-item{
+	color: #ffffff;
+	font-size: 17px;
+	margin: 50px 50px 0 50px;
+}
+.next-link{
+	color: #ffffff;
+	text-decoration: none;
+}
+.text{
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.next-menu{
+	display: flex;
+	width: 1200px;
+	list-style: none;
+	justify-content: space-between;
+	padding: 0px 100px 0px 100px;
+}
+.title2{
+	color: #1E90FF;
+	font-size: 20px;
+}
+.subtitle2{
+	color: #1E90FF;
+	font-size: 30px;
+}
+.middle{
+	display: block;
+	justify-content: center;
+	background: #ffffff
+}
+.middle2{
+	display: block;
+	justify-content: center;
+	background: #ffffff	
+}
+.title3{
+	color: #1E90FF;
+	font-size: 20px;
+}
+.subtitle3{
+	color: #1E90FF;
+	font-size: 30px;
+}
