@@ -61,10 +61,10 @@
 
 .next-menu{
 	display: flex;
-	width: 1200px;
+	width: 1000px;
 	list-style: none;
 	justify-content: space-between;
-	padding: 0px 100px 0px 100px;
+	padding: 0 auto;
 }
 .title2{
 	color: #1E90FF;
@@ -75,14 +75,9 @@
 	font-size: 30px;
 }
 .middle{
-	display: block;
+	display: flex;
 	justify-content: center;
 	background: #ffffff
-}
-.middle2{
-	display: block;
-	justify-content: center;
-	background: #ffffff	
 }
 .title3{
 	color: #1E90FF;
