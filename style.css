@@ -5,7 +5,7 @@
 }
 
 .backround-image{
-	background-image: url('images/team.jpg');
+	background-image: url('images/desk.jpg');
 	height: 1000px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -19,17 +19,17 @@
 }
 
 .menu-item{
-	color:#ffffff;
+	color:#000000;
 	font-size: 13px;
 	text-transform: uppercase;
 }
 
 .menu-link{
-	color:#ffffff;
+	color:#000000;
 	text-decoration: none;
 }
 .title{
-	color: #ffffff;
+	color: #000000;
 	font-size: 40px;
 	text-transform: uppercase;
 	margin: 500px 0 0 30px;
@@ -51,7 +51,7 @@
 	margin: 50px 50px 0 50px;
 }
 .next-link{
-	color: #ffffff;
+	color: #000;
 	text-decoration: none;
 }
 .text{
@@ -79,6 +79,9 @@
 	justify-content: center;
 	background: #ffffff
 }
+.middle1{
+	margin-left: 40px;
+}
 .title3{
 	color: #1E90FF;
 	font-size: 20px;
@@ -86,4 +89,7 @@
 .subtitle3{
 	color: #1E90FF;
 	font-size: 30px;
+}
+*{
+	border: 1px solid black;
 }
