@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>STARSacademy</title>
+	<link rel="stylesheet" type="text/css" href="eric-meyer-reset.min_css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,7 +14,7 @@
 			<nav>
 				<ul class="menu">
 					<li class="menu-item">
-						<a href= "" class="menu-link">О нас</a>
+						<a href="about.html" class="menu-link">О нас</a>
 					</li>
 					<li class="menu-item">
 						<a href="" class="menu-link">Корпоративное обучение</a>
@@ -33,7 +35,7 @@
 		<ul class="next-menu">
 			<li class="next-item">
 				<img src="images/network.png"width="55" height="50" alt="">
-				<h2>Trainings for newcomers</h2>
+				<h2>For newcomers</h2>
 				<p class="text">
 					Introduction trainings for our new colleagues
 				</p>
@@ -72,57 +74,61 @@
 				</a>
 			</li>
 		</ul>
-		<div class="middle">
-			<div>
-				<h3 class="title2">Some news</h3>
-				<h2 class="subtitle2">About upcoming trainings</h2>
-				<div>
+		<div class="main">
+			<div class="middle">
+				<div class="text-bg">
+					<h3 class="title2">Some news</h3>
+					<h2 class="subtitle2">About upcoming trainings</h2>
 					<a href= "" class="next-link">Find out more</a>
 				</div>
-				
-				<img src="images/dreamstime.jpg"width="450" height="235" alt="">
+				<div class="hover">
+					<img src="images/dreamstime.jpg"width="450" height="235" alt="">
+				</div>
 			</div>
-		<div class="middle middle1">
-			<div>
-			<h3 class="title3">Most recent</h3>
-			<h2 class="subtitle3">Language news</h2>
-			<div>
-				<a href= "" class="next-link">Find out more</a>
+			<div class="middle">
+				<div class="hover">
+					<img src="images/study.jpg"width="450" height="235" alt="">
+				</div>
+				<div class="text-bg">
+					<h3 class="title3">Most recent</h3>
+					<h2 class="subtitle3">Language news</h2>
+					<a href= "" class="next-link">Find out more</a>
+				</div>
+
 			</div>
-			<img src="images/study.jpg"width="450" height="235" alt="">
 		</div>
-	</div>
-
 	</main>
-	<footer>
-		<form>
+	<footer class="footer">
+		<div class="footer-container">
+			<form>
+				<input type="text" class="input" placeholder="Your Name">
+				<input type="text" class="input" placeholder="Your Email">
+				<button class="button">Join Newsletter</button>
+			</form>
+			<ul class="social">
+				<li>
+					<a href="https://www.facebook.com/">
+						<img src="images/fb.png">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="images/tw.png">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="images/yt.png">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="images/ln.png">
+					</a>
+				</li>
+			</ul>
+		</div>
 
-			<input type="text" placeholder="Your Name">
-			<input type="text" placeholder="Your Email">
-			<button>Join Newsletter</button>
-		</form>
-		<ul>
-			<li>
-				<a href="">
-					<img src="images/fb.png">
-				</a>
-			</li>
-			<li>
-				<a href="">
-					<img src="images/tw.png">
-				</a>
-			</li>
-			<li>
-				<a href="">
-					<img src="images/yt.png">
-				</a>
-			</li>
-			<li>
-				<a href="">
-					<img src="images/ln.png">
-				</a>
-			</li>
-		</ul>
 	</footer>
 </body>
 </html>
